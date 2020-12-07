@@ -1,0 +1,190 @@
+body{margin: 0
+    padding:0
+    color:#626262;
+}
+/* font-family: 'Inconsolata', monospace; */
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* #626262  */
+
+header{
+    
+}
+.container{
+    width:90%;
+    
+    margin:0 auto; overflow: hidden;
+}
+.logo{width: 12%;
+    float: left;
+    margin-top: 7px;
+}
+.logo img{width:100%;
+    
+}
+.menu{
+    width:70%;
+    float: right;
+    
+    display: inline-block;
+    
+}
+.menu ul{float:right;
+    
+}
+.menu ul li{list-style: none;
+    float:left;
+    
+}
+.menu ul li a{text-decoration: none;
+    display: inline-block;
+    margin:0 50px;
+    color:#626262;
+    border-bottom: 1px solid transparent;
+}
+
+.menu ul li a:last-child a{
+  margin-right:0; 
+}
+
+
+.menu ul li a:hover{border-bottom: 1px solid #626262;transition: .3s;
+    
+}
+.banner{
+    
+}
+
+.b-wrapper{
+    
+}
+
+.b-wrapper img{width:100%;
+    
+}
+
+/* About photodiary start */
+.photodiary_side{
+        padding: 70px 0;
+    
+}
+.container2{
+    margin:0 auto;
+    width: 80%;
+    overflow: hidden;
+    
+}
+.light{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+color:#b4ad9e;
+text-transform: uppercase;
+    margin: 0;}
+
+.getway_title{font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+color:#626262;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.p{font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color:#b4ad9e;
+    letter-spacing: 2px;
+    line-height: 25px;
+    word-spacing: 1px;
+    margin: 0;margin-bottom: 45px;
+}
+
+
+
+/* About photodiary end */
+
+/* blog Start*/
+.blog{
+    margin: 0 auto;overflow: hidden;
+    padding-bottom: 25px;
+    
+}
+
+.single{
+    width:45%;
+    float:left;
+    margin-top: 70px;
+}
+.single:nth-child(even){
+   margin-left: 119px;
+    }
+
+
+.single img{width:100%; margin-bottom: 25px;
+    
+}
+/* blog End*/
+
+.news{ min-height: 500px;
+    width: 100%;
+    background-color: #dddddd;
+    display: inline-block;
+    text-align: center;
+    padding-top: 200px;
+}
+.news sine_up{
+    
+}
+.news enter_valid{ margin-top: 60px;
+    
+}
+
+/*loadstard */
+.load{ text-align: center;
+    
+}
+
+.load button{width:165px;height: 60px;
+    background-color: transparent;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    
+}
+
+
+.load button:hover{
+    background-color: #626262;color:white;
+}
+
+
+.footer{ 
+    background-color:#b4ad9e;
+    height: 100px;;
+margin: 0 auto;
+  
+}
+.foot{margin:left;display: inline-block;  }
+
+.foot li{ display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.social_media{
+    float: right;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+.social_media p{margin-right: 50px;
+    display: inline-block;}
